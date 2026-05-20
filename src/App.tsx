@@ -112,13 +112,13 @@ export default function App() {
     <div className="bg-aged-paper min-h-screen text-brand-text font-sans antialiased selection:bg-brand-yellow selection:text-brand-black w-full overflow-x-hidden">
       
       {/* TOP ANNOUNCEMENT TICKER (Departures list) */}
-      <div className="bg-brand-black text-brand-yellow py-2 px-4 shadow-md border-b border-brand-yellow-deep/20 text-xs font-mono overflow-hidden">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-8 whitespace-nowrap">
-          <div className="flex items-center gap-6 animate-pulse">
-            <span className="text-brand-red font-bold">● KOMUNIKAT STACJI:</span>
-            <span>Tradycyjne zupy domowe codziennie świeżo warzone u stóp peronu w Konstancinie!</span>
+      <div className="bg-brand-black text-brand-yellow py-2 px-4 shadow-md border-b border-brand-yellow-deep/20 text-[11px] sm:text-xs font-mono overflow-hidden">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 md:gap-8">
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3 text-center sm:text-left">
+            <span className="text-brand-red font-bold shrink-0">● KOMUNIKAT STACJI:</span>
+            <span className="whitespace-normal text-brand-yellow-light">Tradycyjne zupy domowe codziennie świeżo warzone u stóp peronu w Konstancinie!</span>
           </div>
-          <div className="hidden sm:flex items-center gap-4">
+          <div className="flex items-center gap-2 justify-center shrink-0">
             <span className="text-brand-yellow-deep">NASTĘPNY ODJAZD:</span>
             <span className="text-white hover-flap">10:00 - 17:00 Pn-Pt</span>
           </div>
