@@ -1,0 +1,6 @@
+{
+  "name": "Obiady przy torach",
+  "description": "Domowa kuchnia polska na miejscu jak i z dostawą w Konstancinie-Jeziornej. Obiady przy torach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
