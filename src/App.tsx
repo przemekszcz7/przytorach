@@ -572,12 +572,13 @@ export default function App() {
 
             {/* Embed Map Google Iframe Container */}
             <div className="lg:col-span-8 bg-brand-bg border border-brand-border p-3 rounded-2xl shadow-md min-h-[440px] flex flex-col justify-between">
-              <div className="w-full h-full rounded-xl overflow-hidden border border-brand-border/60 bg-brand-bg-warm">
-                {/* Interactive Google Map embed with full-width */}
+              <div className="flex-1 w-full rounded-xl overflow-hidden border border-brand-border/60 bg-brand-bg-warm relative min-h-[350px]">
+                {/* Interactive Google Map embed stretched perfectly to fill the container */}
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.0285506001055!2d21.113231277100578!3d52.09741196743007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192c17a069ffaf%3A0x32a5f1b1b065fea1!2sWarszawska%2035%2C%2005-510%20Konstancin-Jeziorna!5e0!3m2!1spl!2spl!4v1779269653797!5m2!1spl!2spl" 
                   width="100%" 
-                  height="450" 
+                  height="100%" 
+                  className="absolute inset-0 w-full h-full"
                   style={{ border: 0 }} 
                   allowFullScreen={true} 
                   loading="lazy" 
